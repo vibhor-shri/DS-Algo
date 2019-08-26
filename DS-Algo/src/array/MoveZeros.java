@@ -14,7 +14,7 @@ public class MoveZeros {
 //		int[] array = {1, 2, 0, 4, 3, 0, 5, 0};
 		int[] array = {1, 2, 0, 0, 0, 3, 6};
 //		int[] array = {1, 2, 5, 7, 9, 3, 6};
-		System.out.println(Arrays.toString(moveZeros(array))); 
+		System.out.println(Arrays.toString(moveZeros(array)));
 	}
 
 	private static int[] moveZeros(int[] array) {
