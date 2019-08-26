@@ -48,7 +48,6 @@ public class MaxStockProfit {
 			minPrice = Math.min(minPrice, prices[i]);
 			maxProfit = Math.max(maxProfit, prices[i] - minPrice);
 		}
-
 		return maxProfit;
 	}
 
@@ -116,9 +115,6 @@ public class MaxStockProfit {
 			buyTwo = Math.min(buyTwo, prices[i] - sellOne);
 			sellTwo = Math.max(sellTwo, prices[i] - buyTwo);
 		}
-
 		return sellTwo;
-
 	}
-
 }
