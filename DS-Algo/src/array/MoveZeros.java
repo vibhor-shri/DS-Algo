@@ -5,6 +5,9 @@ import java.util.Arrays;
 /*
  * Given an array of integers, move all 0's to the end of it,
  *  while maintaining the relative order of the non-zero elements.
+ *  
+ *  Time complexity O(n)
+ *  Space complexity O(1)
  */
 
 public class MoveZeros {
