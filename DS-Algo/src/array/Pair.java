@@ -1,4 +1,4 @@
-package array.twosum;
+package array;
 
 public class Pair {
 

@@ -1,4 +1,4 @@
-package array.twosum;
+package array;
 
 import java.util.ArrayList;
 import java.util.HashSet;
