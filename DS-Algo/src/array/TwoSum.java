@@ -45,7 +45,7 @@ public class TwoSum {
 	}
 
 	/*
-	 * 2st variation of the problem, return true if a pair exists 
+	 * 2nd variation of the problem, return true if a pair exists 
 	 * Time complexity O(n)
 	 * Space complexity O(n)
 	 */
