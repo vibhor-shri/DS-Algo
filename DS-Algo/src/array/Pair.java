@@ -10,4 +10,10 @@ public class Pair {
 		this.pairItemTwo = itemTwo;
 	}
 
+	@Override
+	public String toString() {
+		String str = "" + pairItemOne + " , " + pairItemTwo;
+		return str;
+	}
+
 }

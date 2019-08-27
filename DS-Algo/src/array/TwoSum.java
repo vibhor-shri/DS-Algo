@@ -18,7 +18,7 @@ public class TwoSum {
 		ArrayList<Pair> pairs = findAllPairs(array, sum);
 		if (pairs != null && pairs.size() > 0) {
 			for (Pair pair : pairs) {
-				System.out.println(pair.pairItemOne + " , " + pair.pairItemTwo);
+				System.out.println(pair.toString());
 			}
 		}
 	}
