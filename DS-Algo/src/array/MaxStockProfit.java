@@ -9,9 +9,9 @@ public class MaxStockProfit {
 
 	public static void main(String[] args) {
 		int price[] = { 10, 22, 5, 75, 65, 80 }; // 75, 97, 87
-		// int price[] = { 12, 14, 17, 10, 14, 13, 12, 15 }; // 5, 12 , 10
-		// int price[] = { 100, 80, 120, 130, 70, 60, 100, 125 }; // 65, 115, 115
-		// int price[] = { 100, 80, 70, 65, 60, 55, 50 }; // 0, 0, 0
+//		 int price[] = { 12, 14, 17, 10, 14, 13, 12, 15 }; // 5, 12 , 10
+//		 int price[] = { 100, 80, 120, 130, 70, 60, 100, 125 }; // 65, 115, 115
+//		 int price[] = { 100, 80, 70, 65, 60, 55, 50 }; // 0, 0, 0
 		System.out.println(maxProfit(price));
 		System.out.println(maxProfitMultipleTransactions(price));
 		System.out.println(maxProfitTwoTransactions(price));
@@ -76,9 +76,7 @@ public class MaxStockProfit {
 
 		int maxProfit = 0;
 		for (int i = 0; i < length - 1; i++) {
-			if (prices[i + 1] > prices[i]) {
-				maxProfit += prices[i + 1] - prices[i];
-			}
+				maxProfit += (prices[i + 1] > prices[i]) ? (prices[i + 1] - prices[i]) : 0;
 		}
 		return maxProfit;
 	}
